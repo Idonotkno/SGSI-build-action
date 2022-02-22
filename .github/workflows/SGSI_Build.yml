@@ -70,7 +70,7 @@ jobs:
           fi
           ls "upload"
 
-      - name: Upload SGSI to GH-Release
+      - name: Upload SGSI to GH-Release 
         uses: ncipollo/release-action@v1.8.6
         with:
           artifacts: ${{ github.workspace }}/SGSI-build-tool/upload/*
